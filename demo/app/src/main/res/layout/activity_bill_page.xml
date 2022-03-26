@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".billPage">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="21dp"
+        app:srcCompat="@drawable/bill_modified" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="4dp"
+        android:text="Bill Gates, in full William Henry Gates III, (born October 28, 1955, Seattle, Washington, U.S.), American computer programmer and entrepreneur who cofounded Microsoft Corporation, the world’s largest personal-computer software company."
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="171dp"
+        android:layout_toStartOf="@+id/imageView3"
+        app:srcCompat="@drawable/book_one" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="12dp"
+        app:srcCompat="@drawable/book_two" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="169dp"
+        android:layout_marginBottom="22dp"
+        android:layout_toStartOf="@+id/imageView5"
+        app:srcCompat="@drawable/book_three" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="55dp"
+        app:srcCompat="@drawable/book_four" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="5dp"
+        android:text="where you buy"
+        android:textSize="8dp" />
+</RelativeLayout>
